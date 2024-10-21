@@ -27,6 +27,11 @@ li a {
     text-transform: uppercase;
     font-weight: 300;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 300;
+}
 .btn-1{
     cursor: pointer;
     padding: 12px 17px;
@@ -71,4 +76,33 @@ li a {
     gap: 20px;
     align-items: center;
     margin-top: 50px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
